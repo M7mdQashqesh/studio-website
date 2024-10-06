@@ -384,17 +384,12 @@ header .container .icons i:hover {
 
 /* Start Landing */
 .landing {
-  background-image: url(../assets/landing.png);
+  background-image: url(../assets/landing.webp);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100vh;
   position: relative;
-}
-
-@media (max-width: 991px) {
-  .landing {
-    background-position-x: -180px;
-  }
 }
 
 .landing::before {
